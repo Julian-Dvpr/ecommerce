@@ -1,0 +1,55 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+.detail img{
+    max-width: 700px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+
+}
+.box-detail{
+    max-width: 500px;
+    width: 100%;
+    margin: 5 20px;
+}
+.box-detail .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #323232;  /* fallback for old browsers */
+    
+    
+}
+.box-detail h2{
+    text-transform: uppercase;
+    color: #323232;
+    letter-spacing: 2px;
+    font-weight: 2r;
+    
+}
+.box-detail p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+    
+}
+.box-detail .cart{
+    background: #323232;
+    color: white;
+    margin-top: 10px ;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+
