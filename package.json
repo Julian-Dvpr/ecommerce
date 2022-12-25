@@ -4,13 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client": "cd client && npm run start",
     "client-install": "cd client && npm install",
     "server-install": "npm install",
     "install-all": "concurrently \"npm run client-install\" \"npm run server-install\" ",
-    "dev": "concurrently \"npm run client\" \"npm run server\" ",
+    "dev": "concurrently \"npm run client\" \"npm run index\" ",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
